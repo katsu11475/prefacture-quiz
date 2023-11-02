@@ -1,5 +1,19 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.0"
-  }
+    "axios": "^1.6.0",
+    "bootstrap": "^5.3.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "got": "^13.0.0"
+  },
+  "name": "prefacture-quiz",
+  "description": "セイト先生の動画をもとにjavascriptポートフォリオを作成。クイズの内容は変更しています。",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node web-scraper-node.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
